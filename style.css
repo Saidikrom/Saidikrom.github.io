@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-color: #43281c;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+}
+
+hr {
+  border: 1px solid #43281a;
+  margin: 16px 0px;
+}
+
+h3 {
+  margin: 5px 0px;
+}
+
+.header_text {
+  color: antiquewhite;
+  margin: 10px;
+}
+
+.display {
+  display: flex;
+}
+
+.right {
+  width: 50%;
+}
+
+.section {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+}
+
+.section_right {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+}
+
+
+.section_items {
+  width: 80%;
+  background-color: antiquewhite;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.section_product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section_products {
+  margin: 5% 0;
+}
+
+.section_product_count_name_and_desc {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.section_product_desc {
+  color: coral;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  font-size: 15px;
+}
+
+.input {
+  border: 2px solid #43281a;
+  width: 100%;
+  border-radius: 20px;
+  padding: 0.7rem;
+  outline: none;
+  background-color: antiquewhite;
+}
+
+label {
+  background-color: antiquewhite;
+  padding: 0 5px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: 0.3s;
+  pointer-events: none;
+  border: 5px;
+}
+
+.input:focus + label,
+.input:not(:focus) + label {
+  top: -10px;
+  background-color:antiquewhite;
+  font-size: 13px;
+}
+
+.card_num {
+  margin-bottom: 1.5rem;
+}
+
+.inputs{
+  position: relative;
+}
+
+.checkout_section{
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  padding-bottom: 20px;
+  justify-content: space-around;
+  padding: 5rem 1rem;
+}
+
+.checkout_section_items{
+  width: 80%;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.checkout_section_item{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+.checkout_section_button{
+  width: 100%;
+  height: 20%;
+  background-color:#ddba93;
+  border: none;
+  border-radius: 20px;
+}
